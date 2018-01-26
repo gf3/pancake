@@ -1,6 +1,9 @@
 # pancake
 A user style to simplify waffle.io
 
+![Board](screenshots/board.png)
+![Modal](screenshots/modal.png)
+
 ## How to use
 
 Install a userstyle manager for your favorite browser:
