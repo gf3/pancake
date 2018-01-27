@@ -1,6 +1,11 @@
 # pancake
 A user style to simplify waffle.io
 
+## Before
+![Board](screenshots/board_old.png)
+![Modal](screenshots/modal_old.png)
+
+## After
 ![Board](screenshots/board.png)
 ![Modal](screenshots/modal.png)
 
