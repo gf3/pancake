@@ -132,7 +132,7 @@ ol, ul {
   font-size: var(--font-size-base) !important;
   color: var(--text-color-light);
 }
-  
+
 ::placeholder {
   font-size: var(--font-size-base) !important;
   color: var(--text-color-light);
@@ -161,7 +161,7 @@ ol, ul {
 }
 
 .alert-drawer .dismiss {
-  padding: 11px 0 0;
+  padding: 0;
   font-size: var(--font-size-small);
 }
 
@@ -460,9 +460,12 @@ ol, ul {
 
 .card .card-pr-list {
   margin-bottom: 0;
-  padding: 3px 0;
+  padding: 0;
+  overflow: hidden;
   box-shadow: none;
   border-top: 1px solid var(--line-light-color);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
 }
 
 .card .card-pr-list .pr-icon-ct {
@@ -476,13 +479,42 @@ ol, ul {
 }
 
 .card .card-pr-list .card-pr-list-item {
-  padding: 0 6px;
-}
+  box-shadow: none;
+  padding: 3px 6px;
+  }
 
 .card .card-pr-list .pr-title {
   font-style: normal;
   font-size: var(--font-size-small);
+  font-family: var(--font-family);
+  line-height: 1.4;
   color: var(--text-color-light-dark-bg);
+}
+
+.card-pr-list .pr-labels {
+  margin: 3px 0 0;
+  padding: 0;
+}
+
+.card .card-pr-list .label-pill {
+  margin: 0 3px 3px 0;
+  padding: 0 3px;
+  font-family: var(--font-family);
+}
+
+/* }}} */
+
+/* Status bar {{{ */
+
+.status-bar {
+  margin-left: -6px;
+  width: calc(100% + 12px);
+  margin-bottom: -3px;
+}
+
+.status-bar .status:last-child,
+.status-bar .status:first-child {
+  border-radius: 0;
 }
 
 /* }}} */
